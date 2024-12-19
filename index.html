@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Weather Card Widget Design</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="front active">
+        <div class="location">New York</div>
+        <div class="more">
+          <ion-icon name="alert-circle-outline"></ion-icon>
+        </div>
+        <div class="weather">
+          <ion-icon class="i" name="cloud-outline"></ion-icon>
+          <h1>8 <sup>o</sup><br /><span>Today</span></h1>
+        </div>
+        <ul class="forecast">
+          <li>
+            <div class="day">Sunday</div>
+            <div class="temperature">
+              <ion-icon name="cloud-outline"></ion-icon> 9 <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Monday</div>
+            <div class="temperature">
+              <ion-icon class="i" name="thunderstorm-outline"></ion-icon> 18
+              <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Tuesday</div>
+            <div class="temperature">
+              <ion-icon class="i" name="partly-sunny-outline"></ion-icon> 30
+              <sup>o</sup>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="back">
+        <div class="go-back">
+          <ion-icon class="i" name="chevron-back-circle-outline"></ion-icon>
+        </div>
+        <ul class="forecast">
+          <li>
+            <div class="day">Yesterday</div>
+            <div class="temperature">
+              <ion-icon name="snow-outline"></ion-icon> 3 <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Today</div>
+            <div class="temperature">
+              <ion-icon class="i" name="thunderstorm-outline"></ion-icon> 3
+              <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Tommorrow</div>
+            <div class="temperature">
+              <ion-icon class="i" name="partly-sunny-outline"></ion-icon> 7
+              <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Sunday</div>
+            <div class="temperature">
+              <ion-icon class="i" name="partly-sunny-outline"></ion-icon> 7
+              <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Monday</div>
+            <div class="temperature">
+              <ion-icon class="i" name="partly-sunny-outline"></ion-icon> 7
+              <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Tuesday</div>
+            <div class="temperature">
+              <ion-icon name="thunderstorm-outline"></ion-icon> 7
+              <sup>o</sup>
+            </div>
+          </li>
+          <li>
+            <div class="day">Wednesday</div>
+            <div class="temperature">
+              <ion-icon name="rainy-outline"></ion-icon> 7
+              <sup>o</sup>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
